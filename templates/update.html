@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block start %}
+<div class="c1">
+    <h1><b><font font color="gainsboro"><b>Video lectures</b></font></b></h1>
+    <hr>
+    <h5><b><font font color="gainsboro">Unit-1</font><b></h5>
+    <hr>
+    <br>
+    <br>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col"><font font color="gainsboro">S.no.</font></th>
+            <th scope="col"><font font color="gainsboro">Topic</font></th>
+            <th scope="col"><font font color="gainsboro">Lecture</font></th>
+        </tr>
+    </thead>
+    <div class="c8">
+        <tbody>
+            <tr>
+                <th scope="row"><font font color="gainsboro">1</font></th>
+                <td><font color="gainsboro"><b>DISCRETE MATH</b></font></td>
+                <td><iframe width="560" height="315" src="https://www.youtube.com/embed/erSvYE5ITNI?si=Oihydy15ErsrD7mx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <th scope="row"><font color="gainsboro">2</font></th>
+                <td><font color="gainsboro"><b>COMPILER DESIGN</b></font></td>
+                <td><iframe width="560" height="315" src="https://www.youtube.com/embed/OQCjakjCJu4?si=-GCOIiJeds9Y8qJx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+            </tr>
+            <!-- Add more rows for other lectures -->
+        </tbody>
+    </div>
+</table>
+{% endblock %}
