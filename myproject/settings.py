@@ -135,6 +135,5 @@ MEDIA_ROOT = BASE_DIR / 'media'
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 SESSION_COOKIE_SECURE = True  # Set it to True if using HTTPS in production
 
-STATICFILES_DIRS = os.path.join(BASE_DIR,'static'),
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build','static')
+
 
